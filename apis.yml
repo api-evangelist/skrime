@@ -1,0 +1,29 @@
+aid: skrime
+name: SKRIME
+description: 'SKRIME is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/skrime/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-11'
+modified: '2026-11-11'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://skrime.eu
+- type: Documentation
+  url: https://skrime.eu/docs
+x-submission-notes: EU hosting provider; read-only OpenAPI https://skrime.eu/docs/openapi-read.json, llms.txt,
+  MCP https://skrime.eu/mcp/read
+x-submission-probe: 2026-11-11 root + invented path both 403 Cloudflare challenge (bot-blocking); /docs/openapi-read.json
+  200 OpenAPI 3.1
