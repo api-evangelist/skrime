@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SKRIME is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://skrime.eu
+SKRIME provides European-hosted cloud infrastructure services, offering sandbox and live APIs for managing accounts, products, KVM servers, dedicated servers, TeamSpeak instances, webspaces, domains, DNS zones, SSL certificates, Proxmox backups, and IPv4 allocations. The read‑only OpenAPI specification details 86 operations in German with English structure, accessible at https://skrime.eu/docs/openapi-read.json. SKRIME targets developers needing programmatic control over hosting resources, emphasizing data protection under EU regulations.
+
+**Areas:** Company · Cloud · Hosting · Infrastructure · EU
+
+## SKRIME on APIs.io
+
+Everything profiled for SKRIME is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/skrime/](https://apis.io/providers/skrime/)** — or go straight to one of the APIs or properties below.
+
+### APIs (17)
+
+- [SKRIME Account API](https://apis.io/apis/skrime/skrime-account-api/) — Account
+- [SKRIME Asn API](https://apis.io/apis/skrime/skrime-asn-api/) — ASN
+- [SKRIME Dedicated API](https://apis.io/apis/skrime/skrime-dedicated-api/) — Dedicated Server
+- [SKRIME Dns API](https://apis.io/apis/skrime/skrime-dns-api/) — DNS Zone
+- [SKRIME Domain API](https://apis.io/apis/skrime/skrime-domain-api/) — Domain
+- [SKRIME Instance API](https://apis.io/apis/skrime/skrime-instance-api/) — TeamSpeak Instanz
+- [SKRIME Ipv4 API](https://apis.io/apis/skrime/skrime-ipv4-api/) — IPv4 Netz
+- [SKRIME Ipv6 API](https://apis.io/apis/skrime/skrime-ipv6-api/) — IPv6 Netz
+- [SKRIME Other API](https://apis.io/apis/skrime/skrime-other-api/) — Tools
+- [SKRIME Product API](https://apis.io/apis/skrime/skrime-product-api/) — Produkt
+- [SKRIME Proxmox Backup API](https://apis.io/apis/skrime/skrime-proxmox-backup-api/) — Proxmox Backup
+- [SKRIME Server API](https://apis.io/apis/skrime/skrime-server-api/) — KVM Server
+- [SKRIME Ssl API](https://apis.io/apis/skrime/skrime-ssl-api/) — SSL Zertifikat
+- [SKRIME Status API](https://apis.io/apis/skrime/skrime-status-api/) — Statusseite
+- [SKRIME Statuspage API](https://apis.io/apis/skrime/skrime-statuspage-api/) — Statusseite (öffentlich)
+- [SKRIME Support API](https://apis.io/apis/skrime/skrime-support-api/) — Ticket
+- [SKRIME Webspace API](https://apis.io/apis/skrime/skrime-webspace-api/) — Webspace
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SKRIME Agentic Access](https://apis.io/agentic-access/skrime/skrime-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Envelope](https://apis.io/schemas/skrime/skrime-envelope/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Skrime Context](https://apis.io/jsonld/skrime/skrime-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SKRIME API Rules](https://apis.io/rules/skrime/skrime-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SKRIME Authentication](https://apis.io/security/skrime/skrime-authentication/)
+- [SKRIME Domain Security](https://apis.io/security/skrime/skrime-domain-security/)
+- [SKRIME Vulnerability Disclosure](https://apis.io/security/skrime/skrime-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://skrime.eu)
+- [Documentation](https://skrime.eu/docs)
+- [Sign up](https://skrime.eu/register)
+- [Support](https://skrime.eu/support)
+- [Terms of service](https://skrime.eu/tos)
+- [Privacy policy](https://skrime.eu/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.5** — developing · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 55.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 35.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/skrime/](https://apis.io/providers/skrime/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SKRIME: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/skrime/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
